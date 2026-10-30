@@ -35,4 +35,13 @@ Pour stabiliser l'algorithme, j'ai implémenté une marge d'erreur infinitésima
 
 **2. Optimisation géométrique vs Méthode naïve**
 La première approche envisagée (naïve) consistait à lancer 360 rayons autour de l'observateur (un par degré). Outre son inefficacité, elle causait des "trous" dans le champ de vision sur les murs éloignés à cause de l'écartement des rayons.
-L'implémentation finale est purement géométrique : l'algorithme repère les extrémités des murs et ne lance des rayons **que
+L'implémentation finale est purement géométrique : l'algorithme repère les extrémités des murs et ne lance des rayons **que** vers ces points précis, garantissant une précision parfaite et une complexité réduite.
+
+## 🤖 Utilisation de l'Intelligence Artificielle
+Dans le respect des consignes d'évaluation, je déclare avoir utilisé un assistant IA comme aide technique.
+* **Ce que l'IA a généré :** L'assistant a été utilisé pour me proposer l'idée initiale, m'expliquer la méthode de résolution du système paramétrique (calcul de t et u via le déterminant), et fournir le squelette de base pour l'affichage avec matplotlib.
+* **Ce que j'ai réalisé, vérifié et analysé moi-même :** 
+  * [Exemple 1 : L'analyse du problème des flottants et la justification mathématique dans ce rapport.]
+  * [Exemple 2 : L'ajout de l'interactivité pour que l'observateur bouge à la souris.]
+  * [Exemple 3 : La création de la carte (coordonnées des murs) pour tester des cas critiques d'occlusion.]
+  * La reprise complète et la correction des TP présents dans le dossier `tp/`.
